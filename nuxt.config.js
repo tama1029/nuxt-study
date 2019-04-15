@@ -54,6 +54,9 @@ module.exports = {
     baseURL: 'https://nuxt-blog-service-41359.firebaseio.com'
   },
 
+  router: {
+    middleware: ['auth-cookie']
+  },
   /*
   ** Build configuration
   */
